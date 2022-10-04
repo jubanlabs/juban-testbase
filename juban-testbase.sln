@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA6F082C-B144-4CBB-AE8F-EF46CE26F5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubanlabs.TestBase", "src\Jubanlabs.TestBase\Jubanlabs.TestBase.csproj", "{A0FD663D-A514-49E0-9061-E90337FAC9BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0FD663D-A514-49E0-9061-E90337FAC9BF} = {FA6F082C-B144-4CBB-AE8F-EF46CE26F5BE}
+	EndGlobalSection
+EndGlobal
