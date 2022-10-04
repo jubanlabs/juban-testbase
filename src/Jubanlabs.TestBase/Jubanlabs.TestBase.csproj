@@ -1,9 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+    <RootNamespace>Jubanlabs.TestBase</RootNamespace>
+
+    <PackageId>Jubanlabs.TestBase</PackageId>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <SourceRevisionId>$([System.DateTime]::UtcNow.ToString("yyyyMMddHHmmss"))</SourceRevisionId>
+    <Authors>Zefei Ji</Authors>
+    <IsTestProject>false</IsTestProject>
+    <RepositoryUrl>https://github.com/jubanlabs/juban-testbase</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jubanlabs.Logging" Version="0.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
 
 </Project>
