@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA6F082C-B14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubanlabs.TestBase", "src\Jubanlabs.TestBase\Jubanlabs.TestBase.csproj", "{A0FD663D-A514-49E0-9061-E90337FAC9BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78A716E5-5456-48C8-BC44-2260B81CC730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jubanlabs.TestBase.Tests", "tests\Jubanlabs.TestBase.Tests\Jubanlabs.TestBase.Tests.csproj", "{F28103B0-355B-45DF-BC4B-5672D5CB5FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FD663D-A514-49E0-9061-E90337FAC9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28103B0-355B-45DF-BC4B-5672D5CB5FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28103B0-355B-45DF-BC4B-5672D5CB5FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28103B0-355B-45DF-BC4B-5672D5CB5FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28103B0-355B-45DF-BC4B-5672D5CB5FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0FD663D-A514-49E0-9061-E90337FAC9BF} = {FA6F082C-B144-4CBB-AE8F-EF46CE26F5BE}
+		{F28103B0-355B-45DF-BC4B-5672D5CB5FA7} = {78A716E5-5456-48C8-BC44-2260B81CC730}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 
 namespace Jubanlabs.TestBase
 {
@@ -11,7 +12,10 @@ namespace Jubanlabs.TestBase
         {
             var host = Host.CreateDefaultBuilder().ConfigureLogging((context, builder) =>
                 {
-                    builder.AddSimpleConsole(o => o.SingleLine = true);
+                    builder.AddSimpleConsole(configure =>
+                    {
+                        configure.SingleLine = true;
+                    });
                 })
                 .Build().SetupJubanLogger();
 
